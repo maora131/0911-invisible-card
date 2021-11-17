@@ -30,13 +30,14 @@ main{
     height: 920px;
     border-radius: 1em;
     box-shadow: 5px 4px 4px black;
+    padding-top: 2em;
 }
 /*Imagen de las florecitas*/
 .cont2 img{
     display: block;
     margin: auto;
-    padding-top: 2em;
     border-radius: 100%;
+    /*aquí padding no, mejor en el contenedor*/
 }
 /*Texto de dentro*/
 .cont2 h1{
@@ -54,7 +55,7 @@ main{
 .iconos{
     text-align: center;
     width: 80%;
-    font-size: 30pt;
+    font-size: 25pt;
     color: #551A8B;
     margin: auto;
     display: block;
@@ -84,3 +85,23 @@ i:hover{
     margin-top: 2em;
     font-family: 'Montserrat', sans-serif;
 }
+/*RESPONSIVE*/
+@media(max-width: 1500px) {
+    .cont2 img{
+        border-radius: 100%;
+        width: 90%;
+    }
+}
+@media(max-width: 1350px) {
+    .cont2 img{
+        border-radius: 100%;
+        width: 90%;
+    }
+}
+@media(max-width: 900px) {
+    .cont2 img{
+        border-radius: 100%;
+        width: 60%;
+    }
+}
+
