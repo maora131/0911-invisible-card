@@ -97,11 +97,18 @@ i:hover{
         border-radius: 100%;
         width: 90%;
     }
+    .iconos{
+        font-size: 18pt;
+    }
 }
+
 @media(max-width: 900px) {
     .cont2 img{
         border-radius: 100%;
         width: 60%;
+    }
+    .iconos{
+        font-size: 15pt;
     }
 }
 
