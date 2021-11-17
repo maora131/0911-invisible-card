@@ -10,12 +10,12 @@ main{
 /*Imagen de fondo y se añadió la animación a posteriori*/
 @keyframes llegadaRepentina {
     0% {
-      transform: translateY(-100%);
+    transform: translateY(-100%);
     }
     100% {
-      transform: translateY(0);
+    transform: translateY(0);
     }
-  }
+}
 .container{
     height: 1000px;
     padding-top: 7em;
